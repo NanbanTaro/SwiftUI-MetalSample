@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ColorfulShaderView.swift
 //  MetalSampleApp
 //
 //  Created by NanbanTaro on 2025/05/08.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ColorfulShaderView: View {
 
     private let date = Date.now
     var body: some View {
@@ -27,5 +27,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ColorfulShaderView()
 }
