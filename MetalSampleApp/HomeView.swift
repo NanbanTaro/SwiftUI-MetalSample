@@ -18,7 +18,7 @@ struct HomeView: View {
         ),
         ShaderListItem(
             id: 2,
-            title: "WaveDistortionShaderView",
+            title: "WaveDistortionShader",
             view: AnyView(WaveDistortionShaderView())
         )
     ]

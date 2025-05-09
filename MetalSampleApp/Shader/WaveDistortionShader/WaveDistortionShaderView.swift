@@ -26,7 +26,6 @@ struct WaveDistortionShaderView: View {
                     ),
                     maxSampleOffset: CGSize(width: 10, height: 10)
                 )
-                .drawingGroup()
                 .frame(width: 300, height: 300)
         }
     }
