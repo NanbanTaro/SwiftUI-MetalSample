@@ -9,8 +9,8 @@
 import SwiftUI
 
 struct ColorfulShaderView: View {
-
     private let date = Date.now
+    
     var body: some View {
         TimelineView(.animation) { context in
             let elapsedTime = context.date.timeIntervalSince1970 - date.timeIntervalSince1970
@@ -18,7 +18,7 @@ struct ColorfulShaderView: View {
                 .resizable()
                 .frame(width: 300, height: 300)
                 .colorEffect(
-                    ShaderLibrary.default.colorful(
+                    ShaderLibrary.colorful(
                         .float(elapsedTime)
                     )
                 )
